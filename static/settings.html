@@ -11,7 +11,7 @@
   <script src="/assets/js/particles.js?v=3"></script>
   <script src="/assets/js/cdn-rocket.js?v=3"></script>
   <script src="/assets/js/anym.js?v=3"></script>
-  <title>Doge | V4</title>
+  <title>Helium Free</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6YEQ7Q0XRC"></script>
   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-6YEQ7Q0XRC');</script>
 </head>
@@ -61,25 +61,6 @@
   <p>Customize the site with backgrounds.</p>
 <button class="option" style="width: 150px;max-width:150px;" anim="ripple" onclick="showBackgroundPopup()">Set Background</button><button style="width: 150px;" class="option" anim="ripple" onclick="resetBackground()">Remove</button>
 </div>
-<div class="settingscontainer"><br>
-  <p style="font-weight: bold;">Themes</p>
-  <p style="font-size:23px;">Customize your unblocker by choosing our themes. (Enable particles for effect)</p>
-  <select id="dropdown" class="option" style="text-align:left;">
-    <option disabled value="placeholder" selected>Select a theme</option>
-    <option value="deepsea" class="option" style="color:black;">Deep Sea (Default)</option>
-    <option value="swamp" class="option" style="color:black;">Swamp</option>
-    <option value="starry" class="option" style="color:black;">Starry</option>
-    <option value="magma" class="option" style="color:black;">Magma</option>
-    <option value="sunset" class="option" style="color:black;">Sunset</option>
-    <option value="equinox" class="option" style="color:black;">Equinox</option>
-  </select>
-</div>
-<div class="settingscontainer"><br>
-  <p style="font-weight: bold;">Particles</p>
-  <p style="font-size:19px;">This lets you enable or disable the particles effect for themes, in case they lag your computer.</p>
-<button style="width: 150px;" class="option" anim="ripple" onclick="disableParticles()" id="disabledParticles">Enable</button><button class="option" style="width: 150px;" anim="ripple" onclick="enableParticles()" id="enabledParticles">Disable</button>
-  </div>
-</div>
 <div id="panicPopup" class="themesExcluded">
   <div id="panicPopup-content" class="themesExcluded">
     <h2 style="font-family:poppins;">Panic Key</h2>
@@ -88,16 +69,6 @@
     <p id="pkErrorMessage" style="display:none;font-size:13px;color:red;">Please enter a key.</p><br>
     <button anim="ripple" onclick="savePK()" class="btn-main">Save</button>
     <button anim="ripple" onclick="closePK()" class="btn-main">Cancel</button>
-  </div>
-</div>
-<div id="backgroundPopup" class="themesExcluded">
-  <div id="backgroundPopup-content" class="themesExcluded">
-      <h2 style="font-family:poppins;">Custom Background</h2>
-      <input type="text" id="backgroundPopup-input" class="popupInput" placeholder="Background URL">
-      <p style="font-size:13px;">Please include "https://" in your URL.</p>
-      <p id="bgErrorMessage" style="display:none;font-size:13px;color:red;">Please enter a valid link.</p><br>
-      <button anim="ripple" onclick="saveBackground()" class="btn-main">Save</button>
-      <button anim="ripple" onclick="closeBackgroundPopup()" class="btn-main">Cancel</button>
   </div>
 </div>
 <script src="/assets/js/themes.js?v=3"></script>
